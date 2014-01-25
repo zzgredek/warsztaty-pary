@@ -3,6 +3,8 @@
 #include "display.h"
 #include "min.h"
 #include "sum.h"
+#include "max.h"
+
 
 int main()
 {
@@ -13,6 +15,8 @@ int main()
 	min(tab,n);
     disp(tab,n);
     cout << "suma: " << sum(tab,n) << endl;
+	max(tab,n);
+
 	
 	return 0;
 }
