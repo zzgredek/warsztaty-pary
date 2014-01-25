@@ -1,7 +1,7 @@
 #ifndef GEN_H
 #define GEN_H
 
-#include <ctsdlib>
+#include <cstdlib>
 #include <ctime>
 
 
