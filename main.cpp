@@ -1,6 +1,6 @@
 #include <iostream>
 #include "gen.h"
-
+#include "display.h"
 int main()
 {
 	int tab[11];
