@@ -4,6 +4,7 @@
 #include "min.h"
 #include "sum.h"
 #include "max.h"
+#include "utils.h"
 
 
 int main()
@@ -12,11 +13,10 @@ int main()
     int tab[11];
 	int n=10;
 	generuj(tab, n);
+	disp(tab,n);
 	min(tab,n);
-    disp(tab,n);
-    cout << "suma: " << sum(tab,n) << endl;
 	max(tab,n);
+    cout << "suma: " << sum(tab,n) << endl;
 
-	
 	return 0;
 }
