@@ -1,5 +1,5 @@
 #include <iostream>
-#include "generator.h"
+#include "gen.h"
 
 int main()
 {
